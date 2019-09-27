@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 
 import PackageDescription
 
@@ -68,5 +68,5 @@ let package = Package(
     ],
     Target.allTests()
   ] as [[Target]]).flatMap { $0 },
-  swiftLanguageVersions: [.v5]
+  swiftLanguageVersions: [.v5_1]
 )
