@@ -1,0 +1,35 @@
+RxTest:
+  project: Rx.xcworkspace
+  sdks:
+  - iphonesimulator
+  - iphoneos
+  - appletvos
+  - appletvsimulator
+RxSwift:
+  project: Rx.xcworkspace
+  sdks:
+  - iphonesimulator
+  - iphoneos
+  - appletvos
+  - appletvsimulator
+RxRelay:
+  project: Rx.xcworkspace
+  sdks:
+  - iphonesimulator
+  - iphoneos
+  - appletvos
+  - appletvsimulator
+RxCocoa:
+  project: Rx.xcworkspace
+  sdks:
+  - iphonesimulator
+  - iphoneos
+  - appletvos
+  - appletvsimulator
+RxBlocking:
+  project: Rx.xcworkspace
+  sdks:
+  - iphonesimulator
+  - iphoneos
+  - appletvos
+  - appletvsimulator
