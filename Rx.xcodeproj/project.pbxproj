@@ -71,20 +71,20 @@
 		91BE429C1CBF7EC000F6B062 /* UIPageControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BE429B1CBF7EC000F6B062 /* UIPageControl+Rx.swift */; };
 		927A78C92117BCB400A45638 /* NSTextView+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A78C82117BCB400A45638 /* NSTextView+RxTests.swift */; };
 		9BA1CBD31C0F7D550044B50A /* UIActivityIndicatorView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1CBD11C0F7C0A0044B50A /* UIActivityIndicatorView+Rx.swift */; };
-		A2690E7D22688CAE0032C00E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* RxCocoa.framework */; };
-		A2690E7E22688CAE0032C00E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* RxBlocking.framework */; };
-		A2690E7F22688CAE0032C00E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */; };
-		A2690E8022688CAE0032C00E /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* RxRelay.framework */; };
-		A2690E8122688CB50032C00E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* RxSwift.framework */; };
-		A2690E8222688CB50032C00E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* RxCocoa.framework */; };
-		A2690E8322688CB50032C00E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* RxBlocking.framework */; };
-		A2690E8422688CB50032C00E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */; };
-		A2690E8522688CB50032C00E /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* RxRelay.framework */; };
-		A2690E8622688CB80032C00E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* RxSwift.framework */; };
-		A2690E8722688CB80032C00E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* RxCocoa.framework */; };
-		A2690E8822688CB80032C00E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* RxBlocking.framework */; };
-		A2690E8922688CB80032C00E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */; };
-		A2690E8A22688CB80032C00E /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* RxRelay.framework */; };
+		A2690E7D22688CAE0032C00E /* SLR_RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* SLR_RxCocoa.framework */; };
+		A2690E7E22688CAE0032C00E /* SLR_RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* SLR_RxBlocking.framework */; };
+		A2690E7F22688CAE0032C00E /* SLR_RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* SLR_RxTest.framework */; };
+		A2690E8022688CAE0032C00E /* SLR_RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* SLR_RxRelay.framework */; };
+		A2690E8122688CB50032C00E /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
+		A2690E8222688CB50032C00E /* SLR_RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* SLR_RxCocoa.framework */; };
+		A2690E8322688CB50032C00E /* SLR_RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* SLR_RxBlocking.framework */; };
+		A2690E8422688CB50032C00E /* SLR_RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* SLR_RxTest.framework */; };
+		A2690E8522688CB50032C00E /* SLR_RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* SLR_RxRelay.framework */; };
+		A2690E8622688CB80032C00E /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
+		A2690E8722688CB80032C00E /* SLR_RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* SLR_RxCocoa.framework */; };
+		A2690E8822688CB80032C00E /* SLR_RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* SLR_RxBlocking.framework */; };
+		A2690E8922688CB80032C00E /* SLR_RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* SLR_RxTest.framework */; };
+		A2690E8A22688CB80032C00E /* SLR_RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* SLR_RxRelay.framework */; };
 		A2897D57225CA236004EA481 /* PublishRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B0F7101F530CA700548EBE /* PublishRelay.swift */; };
 		A2897D58225CA236004EA481 /* BehaviorRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BCCE1F8944B800501D4D /* BehaviorRelay.swift */; };
 		A2897D62225CA3F3004EA481 /* Observable+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2897D61225CA3F3004EA481 /* Observable+Bind.swift */; };
@@ -402,7 +402,7 @@
 		C834F6C31DB394E100C29244 /* Observable+BlockingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C834F6C11DB394E100C29244 /* Observable+BlockingTest.swift */; };
 		C834F6C41DB394E100C29244 /* Observable+BlockingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C834F6C11DB394E100C29244 /* Observable+BlockingTest.swift */; };
 		C834F6C61DB3950600C29244 /* NSControl+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C834F6C51DB3950600C29244 /* NSControl+RxTests.swift */; };
-		C83508C81C386F6F0027C24C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* RxSwift.framework */; };
+		C83508C81C386F6F0027C24C /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
 		C835092E1C38706E0027C24C /* ControlEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83508DD1C38706D0027C24C /* ControlEventTests.swift */; };
 		C835092F1C38706E0027C24C /* ControlPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83508DE1C38706D0027C24C /* ControlPropertyTests.swift */; };
 		C83509311C38706E0027C24C /* DelegateProxyTest+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83508E01C38706D0027C24C /* DelegateProxyTest+UIKit.swift */; };
@@ -657,7 +657,7 @@
 		C89AB25E1DAACC580065FBE6 /* _RXDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C89AB2561DAACC580065FBE6 /* _RXDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C89AB2621DAACC580065FBE6 /* _RXKVOObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = C89AB2571DAACC580065FBE6 /* _RXKVOObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C89AB2661DAACC580065FBE6 /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = C89AB2581DAACC580065FBE6 /* _RXObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C89AB2791DAACE490065FBE6 /* RxCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = C89AB2781DAACE490065FBE6 /* RxCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89AB2791DAACE490065FBE6 /* SLR_RxCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = C89AB2781DAACE490065FBE6 /* SLR_RxCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C89CFA0C1DAAB4670079D23B /* RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89CFA0B1DAAB4670079D23B /* RxTest.swift */; };
 		C89CFA0D1DAAB4670079D23B /* RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89CFA0B1DAAB4670079D23B /* RxTest.swift */; };
 		C89CFA0E1DAAB4670079D23B /* RxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89CFA0B1DAAB4670079D23B /* RxTest.swift */; };
@@ -761,7 +761,7 @@
 		C8E3906A1F379386004FC993 /* Observable+EnumeratedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E390671F379386004FC993 /* Observable+EnumeratedTests.swift */; };
 		C8E65EFB1F6E91D1004478C3 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E65EFA1F6E91D1004478C3 /* Binder.swift */; };
 		C8E8BA401E2BBDC800A4AC2C /* (null) in Sources */ = {isa = PBXBuildFile; };
-		C8E8BA5A1E2C181A00A4AC2C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* RxSwift.framework */; };
+		C8E8BA5A1E2C181A00A4AC2C /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
 		C8E8BA641E2C186200A4AC2C /* Benchmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8BA621E2C186200A4AC2C /* Benchmarks.swift */; };
 		C8E8BA721E2C18AE00A4AC2C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8BA6F1E2C18AE00A4AC2C /* main.swift */; };
 		C8F03F411DBB98DB00AECC4C /* Anomalies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F03F401DBB98DB00AECC4C /* Anomalies.swift */; };
@@ -782,6 +782,11 @@
 		CB883B401BE24C15000AC2EE /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB883B3F1BE24C15000AC2EE /* RefCountDisposable.swift */; };
 		CB883B451BE256D4000AC2EE /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB883B441BE256D4000AC2EE /* BooleanDisposable.swift */; };
 		CDDEF16A1D4FB40000CA8546 /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDEF1691D4FB40000CA8546 /* Disposables.swift */; };
+		D8F9B67F23C19CD40081921E /* SLR_RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* SLR_RxRelay.framework */; };
+		D8F9B68323C19CD40081921E /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
+		D8F9B68823C19D170081921E /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
+		D8F9B68F23C19D340081921E /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
+		D8F9B69423C19D3A0081921E /* SLR_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */; };
 		D9080ACF1EA05AE0002B433B /* RxNavigationControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9080ACD1EA05A16002B433B /* RxNavigationControllerDelegateProxy.swift */; };
 		D9080AD41EA05DE9002B433B /* UINavigationController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9080AD21EA05DDF002B433B /* UINavigationController+Rx.swift */; };
 		D9080AD81EA06189002B433B /* UINavigationController+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9080AD71EA06189002B433B /* UINavigationController+RxTests.swift */; };
@@ -794,20 +799,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A2897D59225CA28F004EA481 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
-			remoteInfo = RxSwift;
-		};
-		A2897D63225CBD37004EA481 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2897CB3225CA1E7004EA481;
-			remoteInfo = RxRelay;
-		};
 		C83508C91C386F6F0027C24C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
@@ -885,13 +876,6 @@
 			remoteGlobalIDString = C88FA4FD1C25C44800CCFEA4;
 			remoteInfo = RxTest;
 		};
-		C872BD1B1BC0529600D7175E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
-			remoteInfo = "RxSwift-iOS";
-		};
 		C872BD231BC052B800D7175E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
@@ -926,6 +910,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = C80938F51B8A71760088E94D;
 			remoteInfo = "RxCocoa-iOS";
+		};
+		D8F9B68123C19CD40081921E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2897CB3225CA1E7004EA481;
+			remoteInfo = RxRelay;
+		};
+		D8F9B68523C19CD40081921E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
+			remoteInfo = RxSwift;
+		};
+		D8F9B68D23C19D280081921E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
+			remoteInfo = RxSwift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -975,7 +980,7 @@
 		927A78C82117BCB400A45638 /* NSTextView+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextView+RxTests.swift"; sourceTree = "<group>"; };
 		9BA1CBD11C0F7C0A0044B50A /* UIActivityIndicatorView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Rx.swift"; sourceTree = "<group>"; };
 		A111CE961B91C97C00D0DCEE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2897D53225CA1E7004EA481 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2897D53225CA1E7004EA481 /* SLR_RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLR_RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2897D61225CA3F3004EA481 /* Observable+Bind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Bind.swift"; sourceTree = "<group>"; };
 		A2897D65225D0182004EA481 /* PublishRelay+Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PublishRelay+Signal.swift"; sourceTree = "<group>"; };
 		A2897D68225D023A004EA481 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -995,8 +1000,8 @@
 		C8091C4D1FAA345C001DB32A /* ObservableConvertibleType+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableConvertibleType+SharedSequence.swift"; sourceTree = "<group>"; };
 		C8091C521FAA3588001DB32A /* ObservableConvertibleType+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableConvertibleType+SharedSequence.swift"; sourceTree = "<group>"; };
 		C8091C561FAA39C1001DB32A /* ControlEvent+Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ControlEvent+Signal.swift"; sourceTree = "<group>"; };
-		C809396D1B8A71760088E94D /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8093BC71B8A71F00088E94D /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C809396D1B8A71760088E94D /* SLR_RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLR_RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8093BC71B8A71F00088E94D /* SLR_RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLR_RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8093C491B8A72BE0088E94D /* Cancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
 		C8093C4B1B8A72BE0088E94D /* AsyncLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncLock.swift; sourceTree = "<group>"; };
 		C8093C4C1B8A72BE0088E94D /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
@@ -1305,7 +1310,7 @@
 		C8845AD91EDB607800B36836 /* Observable+ShareReplayScopeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ShareReplayScopeTests.swift"; sourceTree = "<group>"; };
 		C88E296A1BEB712E001CCB92 /* RunLoopLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunLoopLock.swift; sourceTree = "<group>"; };
 		C88F76801CE5341700D5A014 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
-		C88FA50C1C25C44800CCFEA4 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88FA50C1C25C44800CCFEA4 /* SLR_RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLR_RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8941BDE1BD5695C00A0E874 /* BlockingObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		C8941BE31BD56B0700A0E874 /* BlockingObservable+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BlockingObservable+Operators.swift"; sourceTree = "<group>"; };
 		C896A68A1E6B7DC60073A3A8 /* Observable+CombineLatestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+CombineLatestTests.swift"; sourceTree = "<group>"; };
@@ -1345,7 +1350,7 @@
 		C89AB2571DAACC580065FBE6 /* _RXKVOObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RXKVOObserver.h; sourceTree = "<group>"; };
 		C89AB2581DAACC580065FBE6 /* _RXObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RXObjCRuntime.h; sourceTree = "<group>"; };
 		C89AB2731DAACCE30065FBE6 /* RxCocoaRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxCocoaRuntime.h; sourceTree = "<group>"; };
-		C89AB2781DAACE490065FBE6 /* RxCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxCocoa.h; sourceTree = "<group>"; };
+		C89AB2781DAACE490065FBE6 /* SLR_RxCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLR_RxCocoa.h; sourceTree = "<group>"; };
 		C89CFA0B1DAAB4670079D23B /* RxTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTest.swift; sourceTree = "<group>"; };
 		C89CFA101DAABBE20079D23B /* Any+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Any+Equatable.swift"; sourceTree = "<group>"; };
 		C89CFA111DAABBE20079D23B /* ColdObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColdObservable.swift; sourceTree = "<group>"; };
@@ -1362,7 +1367,7 @@
 		C89CFA1D1DAABBE20079D23B /* XCTest+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTest+Rx.swift"; sourceTree = "<group>"; };
 		C8A53ADF1F09178700490535 /* Completable+AndThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Completable+AndThen.swift"; sourceTree = "<group>"; };
 		C8A53AE41F09292A00490535 /* Completable+AndThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Completable+AndThen.swift"; sourceTree = "<group>"; };
-		C8A56AD71AD7424700B4673B /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLR_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A81C9F1E05E82C0008DEF4 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
 		C8A81CA51E05EAF70008DEF4 /* Binder+Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binder+Tests.swift"; sourceTree = "<group>"; };
 		C8A9B6F31DAD752200C9B027 /* Observable+BindTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+BindTests.swift"; sourceTree = "<group>"; };
@@ -1441,6 +1446,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F9B68823C19D170081921E /* SLR_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1448,6 +1454,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F9B68323C19CD40081921E /* SLR_RxSwift.framework in Frameworks */,
+				D8F9B67F23C19CD40081921E /* SLR_RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1455,6 +1463,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F9B69423C19D3A0081921E /* SLR_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1462,11 +1471,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83508C81C386F6F0027C24C /* RxSwift.framework in Frameworks */,
-				A2690E7D22688CAE0032C00E /* RxCocoa.framework in Frameworks */,
-				A2690E7E22688CAE0032C00E /* RxBlocking.framework in Frameworks */,
-				A2690E7F22688CAE0032C00E /* RxTest.framework in Frameworks */,
-				A2690E8022688CAE0032C00E /* RxRelay.framework in Frameworks */,
+				C83508C81C386F6F0027C24C /* SLR_RxSwift.framework in Frameworks */,
+				A2690E7D22688CAE0032C00E /* SLR_RxCocoa.framework in Frameworks */,
+				A2690E7E22688CAE0032C00E /* SLR_RxBlocking.framework in Frameworks */,
+				A2690E7F22688CAE0032C00E /* SLR_RxTest.framework in Frameworks */,
+				A2690E8022688CAE0032C00E /* SLR_RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1474,11 +1483,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2690E8122688CB50032C00E /* RxSwift.framework in Frameworks */,
-				A2690E8222688CB50032C00E /* RxCocoa.framework in Frameworks */,
-				A2690E8322688CB50032C00E /* RxBlocking.framework in Frameworks */,
-				A2690E8422688CB50032C00E /* RxTest.framework in Frameworks */,
-				A2690E8522688CB50032C00E /* RxRelay.framework in Frameworks */,
+				A2690E8122688CB50032C00E /* SLR_RxSwift.framework in Frameworks */,
+				A2690E8222688CB50032C00E /* SLR_RxCocoa.framework in Frameworks */,
+				A2690E8322688CB50032C00E /* SLR_RxBlocking.framework in Frameworks */,
+				A2690E8422688CB50032C00E /* SLR_RxTest.framework in Frameworks */,
+				A2690E8522688CB50032C00E /* SLR_RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1486,11 +1495,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2690E8622688CB80032C00E /* RxSwift.framework in Frameworks */,
-				A2690E8722688CB80032C00E /* RxCocoa.framework in Frameworks */,
-				A2690E8822688CB80032C00E /* RxBlocking.framework in Frameworks */,
-				A2690E8922688CB80032C00E /* RxTest.framework in Frameworks */,
-				A2690E8A22688CB80032C00E /* RxRelay.framework in Frameworks */,
+				A2690E8622688CB80032C00E /* SLR_RxSwift.framework in Frameworks */,
+				A2690E8722688CB80032C00E /* SLR_RxCocoa.framework in Frameworks */,
+				A2690E8822688CB80032C00E /* SLR_RxBlocking.framework in Frameworks */,
+				A2690E8922688CB80032C00E /* SLR_RxTest.framework in Frameworks */,
+				A2690E8A22688CB80032C00E /* SLR_RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1505,6 +1514,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F9B68F23C19D340081921E /* SLR_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1519,7 +1529,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8E8BA5A1E2C181A00A4AC2C /* RxSwift.framework in Frameworks */,
+				C8E8BA5A1E2C181A00A4AC2C /* SLR_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1746,7 +1756,7 @@
 		C8093E801B8A732E0088E94D /* RxCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				C89AB2781DAACE490065FBE6 /* RxCocoa.h */,
+				C89AB2781DAACE490065FBE6 /* SLR_RxCocoa.h */,
 				C89AB2261DAAC33F0065FBE6 /* RxCocoa.swift */,
 				C8A81C9E1E05E82C0008DEF4 /* Platform */,
 				C89AB1AA1DAAC3350065FBE6 /* Traits */,
@@ -2375,16 +2385,16 @@
 		C8A56AD81AD7424700B4673B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8A56AD71AD7424700B4673B /* RxSwift.framework */,
-				C809396D1B8A71760088E94D /* RxCocoa.framework */,
-				C8093BC71B8A71F00088E94D /* RxBlocking.framework */,
-				C88FA50C1C25C44800CCFEA4 /* RxTest.framework */,
+				C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */,
+				C809396D1B8A71760088E94D /* SLR_RxCocoa.framework */,
+				C8093BC71B8A71F00088E94D /* SLR_RxBlocking.framework */,
+				C88FA50C1C25C44800CCFEA4 /* SLR_RxTest.framework */,
 				C83508C31C386F6F0027C24C /* AllTests-iOS.xctest */,
 				C83509841C38740E0027C24C /* AllTests-tvOS.xctest */,
 				C83509941C38742C0027C24C /* AllTests-macOS.xctest */,
 				C85BA04B1C3878740075D68E /* PerformanceTests.app */,
 				C8E8BA551E2C181A00A4AC2C /* Benchmarks.xctest */,
-				A2897D53225CA1E7004EA481 /* RxRelay.framework */,
+				A2897D53225CA1E7004EA481 /* SLR_RxRelay.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2461,7 +2471,7 @@
 				C89AB25E1DAACC580065FBE6 /* _RXDelegateProxy.h in Headers */,
 				C89AB2661DAACC580065FBE6 /* _RXObjCRuntime.h in Headers */,
 				C89AB25A1DAACC580065FBE6 /* _RX.h in Headers */,
-				C89AB2791DAACE490065FBE6 /* RxCocoa.h in Headers */,
+				C89AB2791DAACE490065FBE6 /* SLR_RxCocoa.h in Headers */,
 				C89AB2621DAACC580065FBE6 /* _RXKVOObserver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2503,11 +2513,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				A2897D5A225CA28F004EA481 /* PBXTargetDependency */,
+				D8F9B68E23C19D280081921E /* PBXTargetDependency */,
 			);
 			name = RxRelay;
 			productName = RxSwift;
-			productReference = A2897D53225CA1E7004EA481 /* RxRelay.framework */;
+			productReference = A2897D53225CA1E7004EA481 /* SLR_RxRelay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C80938F51B8A71760088E94D /* RxCocoa */ = {
@@ -2523,12 +2533,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				A2897D64225CBD37004EA481 /* PBXTargetDependency */,
-				C872BD1C1BC0529600D7175E /* PBXTargetDependency */,
+				D8F9B68223C19CD40081921E /* PBXTargetDependency */,
+				D8F9B68623C19CD40081921E /* PBXTargetDependency */,
 			);
 			name = RxCocoa;
 			productName = RxSwift;
-			productReference = C809396D1B8A71760088E94D /* RxCocoa.framework */;
+			productReference = C809396D1B8A71760088E94D /* SLR_RxCocoa.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8093B4B1B8A71F00088E94D /* RxBlocking */ = {
@@ -2548,7 +2558,7 @@
 			);
 			name = RxBlocking;
 			productName = RxSwift;
-			productReference = C8093BC71B8A71F00088E94D /* RxBlocking.framework */;
+			productReference = C8093BC71B8A71F00088E94D /* SLR_RxBlocking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C83508C21C386F6F0027C24C /* AllTests-iOS */ = {
@@ -2648,7 +2658,7 @@
 			);
 			name = RxTest;
 			productName = RxSwift;
-			productReference = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */;
+			productReference = C88FA50C1C25C44800CCFEA4 /* SLR_RxTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8A56AD61AD7424700B4673B /* RxSwift */ = {
@@ -2667,7 +2677,7 @@
 			);
 			name = RxSwift;
 			productName = RxSwift;
-			productReference = C8A56AD71AD7424700B4673B /* RxSwift.framework */;
+			productReference = C8A56AD71AD7424700B4673B /* SLR_RxSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8E8BA541E2C181A00A4AC2C /* Benchmarks */ = {
@@ -3764,16 +3774,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A2897D5A225CA28F004EA481 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
-			targetProxy = A2897D59225CA28F004EA481 /* PBXContainerItemProxy */;
-		};
-		A2897D64225CBD37004EA481 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A2897CB3225CA1E7004EA481 /* RxRelay */;
-			targetProxy = A2897D63225CBD37004EA481 /* PBXContainerItemProxy */;
-		};
 		C83508CA1C386F6F0027C24C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C8A56AD61AD7424700B4673B /* RxSwift */;
@@ -3829,11 +3829,6 @@
 			target = C88FA4FD1C25C44800CCFEA4 /* RxTest */;
 			targetProxy = C83E39942189070A001F4F0E /* PBXContainerItemProxy */;
 		};
-		C872BD1C1BC0529600D7175E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
-			targetProxy = C872BD1B1BC0529600D7175E /* PBXContainerItemProxy */;
-		};
 		C872BD241BC052B800D7175E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C8A56AD61AD7424700B4673B /* RxSwift */;
@@ -3859,13 +3854,30 @@
 			target = C80938F51B8A71760088E94D /* RxCocoa */;
 			targetProxy = C8E8BA751E2C1BB200A4AC2C /* PBXContainerItemProxy */;
 		};
+		D8F9B68223C19CD40081921E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2897CB3225CA1E7004EA481 /* RxRelay */;
+			targetProxy = D8F9B68123C19CD40081921E /* PBXContainerItemProxy */;
+		};
+		D8F9B68623C19CD40081921E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			targetProxy = D8F9B68523C19CD40081921E /* PBXContainerItemProxy */;
+		};
+		D8F9B68E23C19D280081921E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			targetProxy = D8F9B68D23C19D280081921E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A2897D50225CA1E7004EA481 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3874,7 +3886,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SLR_RxRelay;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -3882,7 +3894,9 @@
 		A2897D51225CA1E7004EA481 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3891,7 +3905,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SLR_RxRelay;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -3899,7 +3913,9 @@
 		A2897D52225CA1E7004EA481 /* Release-Tests */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3908,7 +3924,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SLR_RxRelay;
 				SKIP_INSTALL = YES;
 			};
 			name = "Release-Tests";
@@ -3916,7 +3932,9 @@
 		C809396A1B8A71760088E94D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3925,7 +3943,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxCocoa;
+				PRODUCT_NAME = SLR_RxCocoa;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -3933,7 +3951,9 @@
 		C809396B1B8A71760088E94D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3942,7 +3962,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxCocoa;
+				PRODUCT_NAME = SLR_RxCocoa;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -3950,7 +3970,9 @@
 		C809396C1B8A71760088E94D /* Release-Tests */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3959,7 +3981,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxCocoa;
+				PRODUCT_NAME = SLR_RxCocoa;
 				SKIP_INSTALL = YES;
 			};
 			name = "Release-Tests";
@@ -3967,7 +3989,9 @@
 		C8093BC41B8A71F00088E94D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3976,7 +4000,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxBlocking;
+				PRODUCT_NAME = SLR_RxBlocking;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -3984,7 +4008,9 @@
 		C8093BC51B8A71F00088E94D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -3993,7 +4019,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxBlocking;
+				PRODUCT_NAME = SLR_RxBlocking;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -4001,7 +4027,9 @@
 		C8093BC61B8A71F00088E94D /* Release-Tests */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -4010,7 +4038,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxBlocking;
+				PRODUCT_NAME = SLR_RxBlocking;
 				SKIP_INSTALL = YES;
 			};
 			name = "Release-Tests";
@@ -4317,7 +4345,9 @@
 		C8633A951B08FA5500375D60 /* Release-Tests */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -4326,7 +4356,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxSwift;
+				PRODUCT_NAME = SLR_RxSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = "Release-Tests";
@@ -4336,6 +4366,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -4347,7 +4378,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
-				PRODUCT_NAME = RxTest;
+				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
@@ -4359,6 +4390,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -4370,7 +4402,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
-				PRODUCT_NAME = RxTest;
+				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
@@ -4382,6 +4414,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -4393,7 +4426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
-				PRODUCT_NAME = RxTest;
+				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
@@ -4538,7 +4571,9 @@
 		C8A56AEE1AD7424700B4673B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -4547,7 +4582,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxSwift;
+				PRODUCT_NAME = SLR_RxSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -4555,7 +4590,9 @@
 		C8A56AEF1AD7424700B4673B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -4564,7 +4601,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RxSwift;
+				PRODUCT_NAME = SLR_RxSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C80938F51B8A71760088E94D"
-               BuildableName = "RxCocoa.framework"
+               BuildableName = "SLR_RxCocoa.framework"
                BlueprintName = "RxCocoa"
                ReferencedContainer = "container:Rx.xcodeproj">
             </BuildableReference>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -46,13 +44,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C80938F51B8A71760088E94D"
-            BuildableName = "RxCocoa.framework"
+            BuildableName = "SLR_RxCocoa.framework"
             BlueprintName = "RxCocoa"
             ReferencedContainer = "container:Rx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -64,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C80938F51B8A71760088E94D"
-            BuildableName = "RxCocoa.framework"
+            BuildableName = "SLR_RxCocoa.framework"
             BlueprintName = "RxCocoa"
             ReferencedContainer = "container:Rx.xcodeproj">
          </BuildableReference>

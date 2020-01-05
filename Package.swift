@@ -58,7 +58,7 @@ let package = Package(
   targets: ([
     [
       .target(name: "RxSwift", dependencies: []),
-    ], 
+    ],
     Target.rxCocoa(),
     Target.rxCocoaRuntime(),
     [
@@ -68,5 +68,5 @@ let package = Package(
     ],
     Target.allTests()
   ] as [[Target]]).flatMap { $0 },
-  swiftLanguageVersions: [.v5_1]
+  swiftLanguageVersions: [.v5]
 )

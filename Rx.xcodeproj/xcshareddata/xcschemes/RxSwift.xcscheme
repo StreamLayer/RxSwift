@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C8A56AD61AD7424700B4673B"
-               BuildableName = "RxSwift.framework"
+               BuildableName = "SLR_RxSwift.framework"
                BlueprintName = "RxSwift"
                ReferencedContainer = "container:Rx.xcodeproj">
             </BuildableReference>
@@ -27,19 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C8A56AD61AD7424700B4673B"
-            BuildableName = "RxSwift.framework"
+            BuildableName = "SLR_RxSwift.framework"
             BlueprintName = "RxSwift"
             ReferencedContainer = "container:Rx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -55,13 +53,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C8A56AD61AD7424700B4673B"
-            BuildableName = "RxSwift.framework"
+            BuildableName = "SLR_RxSwift.framework"
             BlueprintName = "RxSwift"
             ReferencedContainer = "container:Rx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -73,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C8A56AD61AD7424700B4673B"
-            BuildableName = "RxSwift.framework"
+            BuildableName = "SLR_RxSwift.framework"
             BlueprintName = "RxSwift"
             ReferencedContainer = "container:Rx.xcodeproj">
          </BuildableReference>

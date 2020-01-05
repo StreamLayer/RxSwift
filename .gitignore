@@ -56,3 +56,6 @@ Packages/
 # AppCode
 
 .idea
+node_modules
+*.lock
+*.zip

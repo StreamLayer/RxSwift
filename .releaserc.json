@@ -1,0 +1,25 @@
+{
+  "branch": "master",
+  "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "preset": "angular"
+    }],
+    ["@semantic-release/exec", {
+      "prepareCmd": "carthage build --cache-builds --archive --archive-output SLR_RxSwift.framework.zip"
+    }],
+    ["@semantic-release/git", {
+      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+      "assets": ["rxcocoa.json","rxrelay.json","rxswift.json","rxblocking.json","rxtest.json"]
+    }],
+    ["@semantic-release/github", {
+      "assets": [
+        { "path": "SLR_RxSwift.framework.zip" },
+        { "path": "rxcocoa.json" },
+        { "path": "rxrelay.json" },
+        { "path": "rxswift.json" },
+        { "path": "rxblocking.json" },
+        { "path": "rxtest.json" }
+      ]
+    }]
+  ]
+}
