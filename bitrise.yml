@@ -90,6 +90,19 @@ workflows:
               --prefix $PREFIX \
               --rewrite slr:rx
 
+            # 7. Tests
+            TMPDIR=$(mktemp -d)
+            DIR=./Tests
+            cp -R $DIR $TMPDIR
+            swift-prefixify rewrite $TMPDIR/$DIR $PWD/$DIR \
+              --include ./rxswift.json \
+              --include ./rxcocoa.json \
+              --include ./rxrelay.json \
+              --include ./rxblocking.json \
+              --include ./rxtest.json \
+              --prefix $PREFIX \
+              --rewrite slr:rx
+
   deploy:
     steps:
     - script:
