@@ -4403,7 +4403,12 @@
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-weak-lswiftXCTest";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-weak-lswiftXCTest",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.SLR-RxTest";
 				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
@@ -4427,7 +4432,12 @@
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-weak-lswiftXCTest";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-weak-lswiftXCTest",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.SLR-RxTest";
 				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
@@ -4451,7 +4461,12 @@
 				INFOPLIST_FILE = RxTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-weak-lswiftXCTest";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-weak-lswiftXCTest",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.SLR-RxTest";
 				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
