@@ -13,7 +13,7 @@
 #import "_RXObjCRuntime.h"
 
 //! Project version number for RxCocoa.
-FOUNDATION_EXPORT double RxCocoaVersionNumber;
+FOUNDATION_EXPORT double SLR_RxCocoaVersionNumber;
 
 //! Project version string for RxCocoa.
-FOUNDATION_EXPORT const unsigned char RxCocoaVersionString[];
+FOUNDATION_EXPORT const unsigned char SLR_RxCocoaVersionString[];

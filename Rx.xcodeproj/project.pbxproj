@@ -883,13 +883,6 @@
 			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
 			remoteInfo = "RxSwift-iOS";
 		};
-		C88FA4FF1C25C44800CCFEA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
-			remoteInfo = "RxSwift-iOS";
-		};
 		C8B52BC5215434D600EAA87C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
@@ -910,6 +903,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = C80938F51B8A71760088E94D;
 			remoteInfo = "RxCocoa-iOS";
+		};
+		D82BD73623CD9E1400E0B00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A56ACE1AD7424700B4673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
+			remoteInfo = RxSwift;
 		};
 		D8F9B68123C19CD40081921E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2654,7 +2654,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C88FA4FE1C25C44800CCFEA4 /* PBXTargetDependency */,
+				D82BD73723CD9E1400E0B00B /* PBXTargetDependency */,
 			);
 			name = RxTest;
 			productName = RxSwift;
@@ -3838,11 +3838,6 @@
 			target = C8A56AD61AD7424700B4673B /* RxSwift */;
 			targetProxy = C872BD231BC052B800D7175E /* PBXContainerItemProxy */;
 		};
-		C88FA4FE1C25C44800CCFEA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
-			targetProxy = C88FA4FF1C25C44800CCFEA4 /* PBXContainerItemProxy */;
-		};
 		C8B52BC6215434D600EAA87C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C80938F51B8A71760088E94D /* RxCocoa */;
@@ -3857,6 +3852,11 @@
 			isa = PBXTargetDependency;
 			target = C80938F51B8A71760088E94D /* RxCocoa */;
 			targetProxy = C8E8BA751E2C1BB200A4AC2C /* PBXContainerItemProxy */;
+		};
+		D82BD73723CD9E1400E0B00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			targetProxy = D82BD73623CD9E1400E0B00B /* PBXContainerItemProxy */;
 		};
 		D8F9B68223C19CD40081921E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4404,7 +4404,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
-				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.SLR-RxTest";
 				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
@@ -4428,7 +4428,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
-				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.SLR-RxTest";
 				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
@@ -4452,7 +4452,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-weak-lswiftXCTest";
-				PRODUCT_BUNDLE_IDENTIFIER = io.rx.RxTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rx.SLR-RxTest";
 				PRODUCT_NAME = SLR_RxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
