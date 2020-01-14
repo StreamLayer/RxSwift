@@ -29,7 +29,8 @@ workflows:
               --report ./rxswift.json \
               --prefix $PREFIX \
               --exclude Event \
-              --product-name RxSwift
+              --product-name RxSwift \
+              --rewrite slr:rx
 
             # 2. RxRelay - depends on RxSwift
             TMPDIR=$(mktemp -d)
@@ -39,7 +40,8 @@ workflows:
               --include ./rxswift.json \
               --report ./rxrelay.json \
               --prefix $PREFIX \
-              --product-name RxRelay
+              --product-name RxRelay \
+              --rewrite slr:rx
 
             # 3. RxCocoa -- RxSwift & RxRelay
             TMPDIR=$(mktemp -d)
@@ -50,7 +52,8 @@ workflows:
               --include ./rxrelay.json \
               --report ./rxcocoa.json \
               --prefix $PREFIX \
-              --product-name RxCocoa
+              --product-name RxCocoa \
+              --rewrite slr:rx
 
             # 4. RxTest
             TMPDIR=$(mktemp -d)
@@ -63,7 +66,8 @@ workflows:
               --exclude next \
               --exclude completed \
               --exclude error \
-              --product-name RxTest
+              --product-name RxTest \
+              --rewrite slr:rx
 
             # 5. RxBlocking
             TMPDIR=$(mktemp -d)
@@ -73,7 +77,8 @@ workflows:
               --include ./rxswift.json \
               --report ./rxblocking.json \
               --prefix $PREFIX \
-              --product-name RxBlocking
+              --product-name RxBlocking \
+              --rewrite slr:rx
 
             # 6. Platform-shared code
             TMPDIR=$(mktemp -d)
@@ -85,7 +90,8 @@ workflows:
               --include ./rxrelay.json \
               --include ./rxblocking.json \
               --include ./rxtest.json \
-              --prefix $PREFIX
+              --prefix $PREFIX \
+              --rewrite slr:rx
 
             yarn semantic-release
 
