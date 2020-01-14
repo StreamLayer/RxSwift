@@ -125,6 +125,10 @@ workflows:
             echo "DEBUG_INFORMATION_FORMAT = dwarf" >> $xcconfig
             echo "CLANG_ENABLE_MODULE_DEBUGGING = NO" >> $xcconfig
             echo "DEAD_CODE_STRIPPING = NO" >> $xcconfig
+            echo 'FRAMEWORK_ROOT = $(SRCROOT)/$(TARGET_NAME)' >> $xcconfig
+            echo 'MACOS_FILES = $(FRAMEWORK_ROOT)/macOS/*' >> $xcconfig
+            echo 'EXCLUDED_SOURCE_FILE_NAMES = $(MACOS_FILES)' >> $xcconfig
+
             export XCODE_XCCONFIG_FILE="$xcconfig"
 
             yarn semantic-release
