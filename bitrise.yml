@@ -4,22 +4,15 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: ios
 
 workflows:
-  deploy:
+  transform:
     steps:
     - script:
         deps:
           brew:
-          - name: node
-          - name: streamlayer/formulas/carthage
           - name: streamlayer/formulas/prefixify
         inputs:
         - content: |-
             #!/bin/bash
-
-            set -ex
-
-            yarn add semantic-release @semantic-release/exec @semantic-release/git
-            trap 'git checkout -- RxBlocking RxCocoa RxRelay RxSwift RxTest Platform Tests' INT TERM HUP EXIT
 
             # 1. RxSwift
             TMPDIR=$(mktemp -d)
@@ -52,6 +45,9 @@ workflows:
               --include ./rxrelay.json \
               --report ./rxcocoa.json \
               --prefix $PREFIX \
+              --exclude next \
+              --exclude completed \
+              --exclude error \
               --product-name RxCocoa \
               --rewrite slr:rx
 
@@ -62,9 +58,13 @@ workflows:
             swift-prefixify rewrite $TMPDIR/$DIR $PWD/$DIR \
               --include ./rxswift.json \
               --report ./rxtest.json \
+              --exclude next \
+              --exclude completed \
+              --exclude error \
               --prefix $PREFIX \
               --product-name RxTest \
-              --rewrite slr:rx
+              --rewrite slr:rx \
+              --exclude XCTAssertEqual
 
             # 5. RxBlocking
             TMPDIR=$(mktemp -d)
@@ -90,6 +90,22 @@ workflows:
               --prefix $PREFIX \
               --rewrite slr:rx
 
+  deploy:
+    steps:
+    - script:
+        deps:
+          brew:
+          - name: node
+          - name: streamlayer/formulas/carthage
+        inputs:
+        - content: |-
+            #!/bin/bash
+
+            set -ex
+
+            yarn add semantic-release @semantic-release/exec @semantic-release/git
+            trap 'git checkout -- RxBlocking RxCocoa RxRelay RxSwift RxTest Platform Tests' INT TERM HUP EXIT
+            bitrise run transform
             yarn semantic-release
 
 app:
