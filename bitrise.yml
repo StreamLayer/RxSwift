@@ -117,8 +117,16 @@ workflows:
             set -ex
 
             yarn add semantic-release @semantic-release/exec @semantic-release/git
-            trap 'git checkout -- RxBlocking RxCocoa RxRelay RxSwift RxTest Platform Tests' INT TERM HUP EXIT
+            xcconfig=$(mktemp /tmp/static.xcconfig.XXXXXX)
+            trap 'rm -f "$xcconfig"; git checkout -- RxBlocking RxCocoa RxRelay RxSwift RxTest Platform Tests' INT TERM HUP EXIT
             bitrise run transform
+
+            echo "MACH_O_TYPE = staticlib" >> $xcconfig
+            echo "DEBUG_INFORMATION_FORMAT = dwarf" >> $xcconfig
+            echo "CLANG_ENABLE_MODULE_DEBUGGING = NO" >> $xcconfig
+            echo "DEAD_CODE_STRIPPING = NO" >> $xcconfig
+            export XCODE_XCCONFIG_FILE="$xcconfig"
+
             yarn semantic-release
 
 app:

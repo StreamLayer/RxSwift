@@ -1,19 +1,19 @@
 RxCocoa:
-  project: Rx.xcworkspace
+  project: Rx.xcodeproj
   sdks:
   - iphonesimulator
   - iphoneos
   - appletvos
   - appletvsimulator
 RxRelay:
-  project: Rx.xcworkspace
+  project: Rx.xcodeproj
   sdks:
   - iphonesimulator
   - iphoneos
   - appletvos
   - appletvsimulator
 RxSwift:
-  project: Rx.xcworkspace
+  project: Rx.xcodeproj
   sdks:
   - iphonesimulator
   - iphoneos
