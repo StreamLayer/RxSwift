@@ -63,7 +63,8 @@ workflows:
               --include ./rxswift.json \
               --report ./rxtest.json \
               --prefix $PREFIX \
-              --product-name RxTest
+              --product-name RxTest \
+              --rewrite slr:rx
 
             # 5. RxBlocking
             TMPDIR=$(mktemp -d)
