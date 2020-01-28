@@ -17,7 +17,7 @@ extension ObservableType {
      */
     public func compactMap<Result>(_ transform: @escaping (Element) throws -> Result?)
         -> Observable<Result> {
-        CompactMap(source: self.asObservable(), transform: transform)
+        return CompactMap(source: self.asObservable(), transform: transform)
     }
 }
 

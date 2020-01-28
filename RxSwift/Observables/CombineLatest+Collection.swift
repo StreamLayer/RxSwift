@@ -29,7 +29,7 @@ extension ObservableType {
      */
     public static func combineLatest<Collection: Swift.Collection>(_ collection: Collection) -> Observable<[Element]>
         where Collection.Element: ObservableType, Collection.Element.Element == Element {
-        CombineLatestCollectionType(sources: collection, resultSelector: { $0 })
+        return CombineLatestCollectionType(sources: collection, resultSelector: { $0 })
     }
 }
 

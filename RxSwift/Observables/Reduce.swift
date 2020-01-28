@@ -38,7 +38,7 @@ extension ObservableType {
     */
     public func reduce<A>(_ seed: A, accumulator: @escaping (A, Element) throws -> A)
         -> Observable<A> {
-        Reduce(source: self.asObservable(), seed: seed, accumulator: accumulator, mapResult: { $0 })
+        return Reduce(source: self.asObservable(), seed: seed, accumulator: accumulator, mapResult: { $0 })
     }
 }
 

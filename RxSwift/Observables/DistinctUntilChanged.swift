@@ -17,7 +17,7 @@ extension ObservableType where Element: Equatable {
      */
     public func distinctUntilChanged()
         -> Observable<Element> {
-        self.distinctUntilChanged({ $0 }, comparer: { ($0 == $1) })
+        return self.distinctUntilChanged({ $0 }, comparer: { ($0 == $1) })
     }
 }
 
@@ -32,7 +32,7 @@ extension ObservableType {
      */
     public func distinctUntilChanged<Key: Equatable>(_ keySelector: @escaping (Element) throws -> Key)
         -> Observable<Element> {
-        self.distinctUntilChanged(keySelector, comparer: { $0 == $1 })
+        return self.distinctUntilChanged(keySelector, comparer: { $0 == $1 })
     }
 
     /**
@@ -45,7 +45,7 @@ extension ObservableType {
      */
     public func distinctUntilChanged(_ comparer: @escaping (Element, Element) throws -> Bool)
         -> Observable<Element> {
-        self.distinctUntilChanged({ $0 }, comparer: comparer)
+        return self.distinctUntilChanged({ $0 }, comparer: comparer)
     }
 
     /**

@@ -1,1 +1,1 @@
-{"identifiers":["BlockingObservable","MaterializedSequenceResult"],"products":["RxBlocking"],"prefix":"SLR_","fnReplace":[]}
+{"identifiers":["MaterializedSequenceResult","BlockingObservable"],"products":["RxBlocking"],"prefix":"SLR_","fnReplace":[]}
