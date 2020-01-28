@@ -28,7 +28,7 @@ extension ObservableType {
      - returns: Disposable object that can be used to unsubscribe the observers.
      */
     public func bind<Observer: ObserverType>(to observers: Observer...) -> Disposable where Observer.Element == Element? {
-        self.map { $0 as Element? }.bind(to: observers)
+        return self.map { return $0 as Element? }.bind(to: observers)
     }
 
     /**
@@ -39,7 +39,7 @@ extension ObservableType {
      - returns: Disposable object that can be used to unsubscribe the observers.
      */
     private func bind<Observer: ObserverType>(to observers: [Observer]) -> Disposable where Observer.Element == Element {
-        self.subscribe { event in
+        return self.subscribe { event in
             observers.forEach { $0.on(event) }
         }
     }

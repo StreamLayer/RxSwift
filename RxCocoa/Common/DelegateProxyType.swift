@@ -131,7 +131,7 @@ extension DelegateProxyType {
 // workaround of Delegate: class
 extension DelegateProxyType {
     static func _currentDelegate(for object: ParentObject) -> AnyObject? {
-        currentDelegate(for: object).map { $0 as AnyObject }
+        return currentDelegate(for: object).map { return $0 as AnyObject }
     }
     
     static func _setCurrentDelegate(_ delegate: AnyObject?, to object: ParentObject) {
@@ -139,7 +139,7 @@ extension DelegateProxyType {
     }
     
     func _forwardToDelegate() -> AnyObject? {
-        self.forwardToDelegate().map { $0 as AnyObject }
+        return self.forwardToDelegate().map { $0 as AnyObject }
     }
     
     func _setForwardToDelegate(_ forwardToDelegate: AnyObject?, retainDelegate: Bool) {
@@ -243,7 +243,7 @@ extension DelegateProxyType {
 // private extensions
 extension DelegateProxyType {
     private static var factory: DelegateProxyFactory {
-        DelegateProxyFactory.sharedFactory(for: self)
+        return DelegateProxyFactory.sharedFactory(for: self)
     }
 
     private static func assignedProxy(for object: ParentObject) -> AnyObject? {
